@@ -1,0 +1,19 @@
+{
+    "name": "puchai/app",
+    "authors": [
+        {
+            "name": "mr.zaw"
+        }
+    ],  
+    "require": {
+        "fakerphp/faker": "^1.23"
+    },
+
+    "autoload": {
+        "psr-4": {
+        "Libs\\": "classes/Libs/",
+        "Helpers\\": "classes/Helpers/"
+        }
+    }
+
+}
